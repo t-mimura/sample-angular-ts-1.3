@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "noLib": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "out": "app.js"
+  },
+  "compileOnSave": false,
+  "files": [
+    "src/js/entry.ts"
+  ]
+}
