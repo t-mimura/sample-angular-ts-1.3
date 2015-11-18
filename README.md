@@ -1,4 +1,4 @@
-# sample-angular-js-1.3
+# sample-angular-ts-1.3
 angularのサンプルです。
 
 # Prerequisites
