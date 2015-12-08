@@ -11,6 +11,6 @@
   },
   "compileOnSave": false,
   "files": [
-    "src/js/entry.ts"
+    "src/ts/entry.ts"
   ]
 }
