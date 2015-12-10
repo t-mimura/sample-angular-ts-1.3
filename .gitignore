@@ -1,10 +1,16 @@
-# output
-.tmp
-dist
+# libary, plugin, addon etc.
+node_modules/
+bower_components/
 
-# lib, packages
-bower_components
-node_modules
+# output
+.tmp/
+dist/
 
 # misc
+.sass-cache/
+.idea/
 npm-debug.log
+
+.DS_Store
+Thumbs.db
+

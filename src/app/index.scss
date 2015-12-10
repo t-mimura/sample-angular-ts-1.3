@@ -1,0 +1,14 @@
+/* Do not remove this comments bellow. */
+// Bower で scssを読み込んだ場合は以下にインジェクトされます。
+// bower:scss
+// endbower
+
+/**
+ * 読み込み順指定したい場合は下記で @import し、/gulp/styles.js 内で除外が必要です。
+ */
+@import "styles/base";
+
+/* Do not remove this comments bellow. */
+// プロジェクトツリー中の全 scss ファイルは以下にインジェクトされます。
+// injector
+// endinjector

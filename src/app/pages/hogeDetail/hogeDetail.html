@@ -1,0 +1,18 @@
+<div class="hoge-detail">
+  <div ng-if="controller.isExists()">
+    <h1>{{controller.hoge.id}}</h1>
+    <dl>
+      <dt>名前</dt><dd>{{controller.hoge.name}}</dd>
+      <dt>メール</dt><dd>{{controller.hoge.email}}</dd>
+      <dt>年代</dt><dd>{{controller.hoge.age}}歳</dd>
+      <dt>他</dt><dd>{{controller.hoge.description}}</dd>
+    </dl>
+    <p>
+      <!--<a ng-href="#/hoge-list">戻る</a>-->
+      <button ng-click="controller.transitionToHogeList()">戻る</button>
+    </p>
+  </div>
+  <div ng-if="!controller.isExists()">
+    <span class="error">見つかりませんでした。</span>
+  </div>
+</div>

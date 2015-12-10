@@ -7,10 +7,10 @@
     "noLib": false,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "out": "app.js"
+    "out": "index.module.js"
   },
   "compileOnSave": false,
   "files": [
-    "src/ts/entry.ts"
+    "src/app/index.module.ts"
   ]
 }

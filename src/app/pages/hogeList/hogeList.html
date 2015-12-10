@@ -1,0 +1,19 @@
+<div class="hoge-list">
+  <div class="title">
+    <i class="logo"></i>
+    <h1>hoges</h1>
+  </div>
+  <ul>
+    <li ng-repeat="hoge in controller.hoges">
+      <a ng-href="#/hoge-detail/{{hoge.id}}">
+        <span>{{hoge.name}} ({{hoge.id}})</span>
+      </a>
+    </li>
+  </ul>
+  <div>
+    <button ng-click="controller.refresh()">refresh</button>
+  </div>
+  <div>
+    <x-clock></x-clock>
+  </div>
+</div>
