@@ -33,7 +33,7 @@ $ npm start
 
 ### minify後、ライブリロード無
 ```bash
-$ npm start:dist
+$ npm run start:dist
 ```
 
 ### ブラウザ確認動作確認
